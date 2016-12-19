@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MPSProject">
+    <projectModules>
+      <modulePath path="$PROJECT_DIR$/languages/com/github/mpslang/langcore/com.github.mpslang.langcore.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/com.github.mpslang.langcore.build/com.github.mpslang.langcore.build.msd" folder="" />
+    </projectModules>
+  </component>
+</project>
