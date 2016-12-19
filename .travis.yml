@@ -1,0 +1,9 @@
+language: java
+os: osx
+
+before_install:
+  - brew update
+  - brew tap caskroom/cask
+  - brew cask install mps
+  
+script: ant assemble
