@@ -10,3 +10,10 @@ before_install:
   - mv mpslangcore/* .
   
 script: ant assemble
+
+deploy:
+  provider: bintray
+  file: "descriptor.json"
+  user: "mpslang"
+  key: "$BINTRAYKEY"
+
