@@ -14,7 +14,7 @@
     "files":
         [
         {
-          "includePattern": "/Users/travis/build/mpslang/mpsLangCore/build/artifacts/com.github.mpslang.core/mpsLangCore.zip", "uploadPattern": "/$1",
+          "includePattern": "/Users/travis/build/mpslang/mpsLangCore/build/artifacts/com.github.mpslang.core/mpsLangCore.zip", "uploadPattern": "/mpsLangCore.zip",
           "matrixParams": {
           "override": 1 }
         }
