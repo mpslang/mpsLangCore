@@ -12,6 +12,9 @@ before_install:
 script: ant assemble
 
 deploy:
+	skip_cleanup: true
+
+deploy:
   provider: bintray
   file: "descriptor.json"
   user: "mpslang"
