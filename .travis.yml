@@ -6,5 +6,7 @@ before_install:
   - brew tap caskroom/cask
   - brew cask install mps
   - brew install ant
+  - git clone https://fxlex@bitbucket.org/fxlex/mpslangcore.git
+  - mv mpslangcore/* .
   
 script: ant assemble
